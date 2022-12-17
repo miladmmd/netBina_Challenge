@@ -93,7 +93,7 @@ export default {
               if(error.response.status == 422) {
                 this.errors = error.response.data.data.task_id[0];
               }else{
-                this.error = error.response.data.error;
+                this.errors = error.response.data.error;
               }
             });
 
