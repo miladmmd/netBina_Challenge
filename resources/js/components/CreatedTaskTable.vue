@@ -9,8 +9,8 @@
                 <th scope="col">dead_line</th>
                 <th scope="col">status</th>
                 <th scope="col">confirmed_by</th>
-                <th scope="col">assigned_to</th>
-                <th scope="col">confirm/assign</th>
+                <th scope="col">now_assigned_to</th>
+                <th scope="col">assign</th>
 
             </tr>
             </thead>

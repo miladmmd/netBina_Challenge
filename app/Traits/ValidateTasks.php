@@ -22,14 +22,13 @@ trait ValidateTasks
     public function isDeadlineDelay($id): bool
     {
 
-            $task = Task::findOrFail($id);
+        $task = Task::findOrFail($id);
 
-            $now = Carbon::parse( \Carbon\Carbon::now()->toDateString());
+        $now = Carbon::parse( \Carbon\Carbon::now()->toDateString());
 
-            $deadline = Carbon::parse($task->deadline);
+        $deadline = Carbon::parse($task->deadline);
 
-
-        return $now->gt($deadline) ? true : false;
+         return $now->gt($deadline) ? true : false;
     }
 
 
