@@ -58,7 +58,7 @@ php artisan serve
 ```bash
  php artisan schedule:test
 ```
-10- I created feature test for this system after copy env.testing.example to env.testing and migrate this , you can run it via:
+5- I created feature test for this system after copy env.testing.example to env.testing and migrate this , you can run it via:
 ```bash
  php artisan test
 ```
